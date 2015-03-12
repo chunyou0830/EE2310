@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+   cout << "Hello World" << endl; 
+   char a1=20, a2=10, b1=30, b2=40;
+   float p1, p2, p3, p4;
+   p1=a1*b1;
+   p2=(a1*b2)>>8;
+   p3=(a2*b1)>>8;
+   p4=(a2*b2)>>16;
+   cout << p1 << endl << p2 << endl << p3 << endl << p4 << endl;
+   
+   return 0;
+}
